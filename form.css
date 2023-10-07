@@ -1,0 +1,43 @@
+fieldset {
+ background-color: lightpink;
+}
+body {
+ font-family: centurygothic;
+ width: 500px;
+ margin: 250px auto;
+ margin-top: 100px;
+}
+h1 {
+color: black;
+font-weight: bold;
+font-family: centurygothic;
+border: solid 10px plum;
+border-radius: 10px;
+background-color: plum;
+text-align: center;
+margin: 0px;
+}
+input {
+font-family: centurygothic;
+color: violet;
+border-radius: 10px;
+border: solid 5px mistyrose;
+background-color: mistyrose;
+margin: 0px;
+}
+button {
+background-color: mistyrose;
+border: solid 5px mistyrose;
+border-radius: 10px;
+font-family: centurygothic;
+margin: 0px;
+color: violet;
+}
+select {
+background-color: mistyrose;
+border: solid 5px mistyrose;
+border-radius: 10px;
+font-family: centurygothic;
+color: violet;
+margin: 0px;
+}

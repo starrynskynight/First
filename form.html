@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+ <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<form action="contact.php" method="POST">
+<fieldset>
+<h1> PEMINJAMAN BUKU PERPUSTAKAAN </h1>
+<br>
+Nama Siswa: <input type="text" name="q1"> <br> <br>
+Kelas: <input type="radio" name="q2" value="x"> X
+<input type="radio" name="q2" value="xi"> XI 
+<input type="radio" name="q2" value="xii"> XII <br> <br>
+Jurusan: <select name="q3">
+<option value="aphp"> APHP </option>
+<option value="atph"> ATPH </option>
+<option value="tkj"> TKJ </option>
+<option value="dkv"> DKV </option>
+<option value="rpl"> RPL </option>
+<option value="mkt"> MKT </option>
+<option value="tpm"> TPM </option>
+<option value="tl"> TL </option>
+<option value="tkr"> TKR </option>
+<option value="tbkr"> TBKR </option> </select>
+<br> <br>
+Kategori Buku: <select name="q4">
+<option value="buku pelajaran"> Buku Pelajaran </option>
+<option value="novel"> Novel </option>
+<option value="biografi"> Biografi </option>
+<option value="komik"> Komik </option>
+<option value="buku jurusan"> Buku Jurusan </option>
+<option value="kamus"> Kamus </option>
+</select> <br> <br>
+Judul Buku: <input type="text" name="q5"> <br> <br>
+No. Induk Buku: <input type="text" name="q6"> <br> <br>
+Tanggal Pinjam: <input type="date"> <br> <br>
+Tanggal Kembali: <input type="date"> <br> <br>
+<input type="submit" name="t_submit" value="Kirim Data" onclick="alert('Data anda sudah direkam ^^')">
+<button type="button" onclick="alert('Thank you' )"> Click Me :D </button>
+</fieldset>
+</form>
+</body>
+</html>
